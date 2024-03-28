@@ -10,17 +10,5 @@ mainContainer.addEventListener("click",function(e){
     
     currentTranstlation += isNext ? -600 : 600;
     slide.style.transform = `translateX(${currentTranstlation}px)`;
-    // if(e.target.classList[0]=== "next"){
-    //     if(currentTranstlation > -1800){
-    //         currentTranstlation -= 600;
-    //         slide.style.transform = `translate(${currentTranstlation}px)`
-
-    //     }
-    // }
-    // if(e.target.classList[0]=== "prev"){
-    //     if(currentTranstlation < 0){
-    //         currentTranstlation += 600;
-    //         slide.style.transform = `translate(${currentTranstlation}px)`
-    //     }
-    // }
+    
 })
